@@ -12,6 +12,10 @@ section{
 	margin: auto; padding:0; border: 0;
 	font-size: 100%; font: inherit;
 	vertical-align: baseline; font-style: normal;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 footer, article, aside, div, footer, header,nav, section , span { display: block; }
@@ -43,6 +47,11 @@ a { text-decoration: none; }
 
 * html .row { zoom: 1; } /* IE6 */
 *:first-child+html .row { zoom: 1; } /* IE7 */
+
+.list-inline li{
+	display: inline-block;
+	margin: 0 5px;
+}
 
 /*--------------------------------------------*/
 /*--------------------typography*/
